@@ -111,6 +111,26 @@
         "measurement": "文字底部轮廓包络到凹槽内侧平面边界的水平及竖直净距"
       },
       "source": "default"
+    },
+    "cord_eye_radial_width_multiplier": {
+      "value": 0.6666666666666666,
+      "source": "user"
+    },
+    "cord_eye_radial_width_mm": {
+      "value": 2,
+      "source": "default"
+    },
+    "cord_eye_outer_diameter_mm": {
+      "value": 8,
+      "source": "default"
+    },
+    "cord_eye_root_transition": {
+      "value": "挂环与牌身连接处的两侧，按标注图片绿色线条做相切圆弧过渡",
+      "source": "user"
+    },
+    "cord_eye_root_radius_mm": {
+      "value": 2,
+      "source": "default"
     }
   },
   "open_questions": []

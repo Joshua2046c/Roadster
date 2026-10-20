@@ -7,7 +7,7 @@
     {
       "id": "cord_eye",
       "kind": "external_mount",
-      "description": "左侧凸出挂绳孔，默认通孔直径4 mm",
+      "description": "左侧一体挂绳孔，通孔直径4 mm，挂环外径8 mm，自由环段径向壁宽2 mm；根部两侧R2相切圆弧连接牌身",
       "source": "user_requested",
       "required": true
     }
@@ -36,6 +36,12 @@
       "source": "user_requested",
       "description": "车牌整体宽高比例与文字四周留白参考",
       "path": "product/references/uploads/20261020T152132223Z-1-image.png"
+    },
+    {
+      "id": "eye_root_transition",
+      "source": "user_requested",
+      "description": "绿色线条标注挂环与牌身连接处两侧的圆弧过渡",
+      "path": "product/references/uploads/20261020T161731756Z-1-mark-1.png"
     }
   ],
   "cad": {
@@ -56,7 +62,8 @@
           "plate_front",
           "plate_alternate",
           "rdstr_lettering",
-          "plate_spacing"
+          "plate_spacing",
+          "eye_root_transition"
         ]
       }
     ]

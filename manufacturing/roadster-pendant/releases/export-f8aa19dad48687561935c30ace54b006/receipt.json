@@ -1,32 +1,39 @@
 {
   "designId": "roadster-pendant",
-  "revision": "bad6384488b8a11e1ceb153fe47d31de6231a452a77be7c94c93e4f5974dbd10",
+  "revision": "62acd75454c4228952653ec1b8e8b2de5f2543759e92e74d989863361c529baf",
   "schemaVersion": 2,
-  "exportId": "export-c8f776beadb37edc76b27c2198fed575",
-  "generatedAt": "2026-10-20T15:23:22.701Z",
-  "designSha256": "ba157356b15c86c32f50433d0530dfb0cd66086fdb94dc603d90df0a3bbf9130",
+  "exportId": "export-f8aa19dad48687561935c30ace54b006",
+  "generatedAt": "2026-10-20T16:18:32.841Z",
+  "designSha256": "bd2571a277e4d051587a8891d418bef1f46ad788cca648af92db97a781e1c450",
   "role": "pendant",
-  "stateHash": "098ed709f1d185bab537705b9ac17fbf4bdea2226f1f64acf439a5b29d74ddd3",
+  "stateHash": "5addde0ebdc18ed89153bcae65d81bffcb2555d417acb7bd2ba46ba6e1d7e107",
   "stateManifest": {
     "schemaVersion": 3,
     "designId": "roadster-pendant",
     "role": "pendant",
     "design": {
-      "revision": "bad6384488b8a11e1ceb153fe47d31de6231a452a77be7c94c93e4f5974dbd10",
-      "designSha256": "d7a2a5943ac78252940391f9681bfe8a1ad19713e36db3e6f2ecfefd6b438dde",
-      "manifestSha256": "70f2dd213a2c4a0c938d585e6222f0ecac9a1e10e5fc74cf50c1779117912efa",
-      "stepSha256": "49dc7f606d3ccfe3fa294e7c44f9548eb0dfc086b5ff7265f739028f03c8a513",
+      "revision": "62acd75454c4228952653ec1b8e8b2de5f2543759e92e74d989863361c529baf",
+      "designSha256": "5ec8175add16f4bc88eccceb5fdc96bbdd34e79998d6d1bd94d42c00187ee3af",
+      "manifestSha256": "801657f498760fcad6e0740e284e20f2ef88bf52def7feda25e22d2d392a4ff0",
+      "stepSha256": "8fcc8cd1a2af7cf0d82b30faa46da71bd20e409e52619b9ee8961b5c735df89c",
       "pcbReleases": []
     },
     "brief": {
       "path": "design/roadster-pendant/README.md",
-      "sha256": "0e877fd57bdcb7c83856614d153c4301011ce9a56c9fe38ee61bce2ae909670c"
+      "sha256": "71ab0e44fda5a64bcf3e5619ff6f8e5de228255b1caa4f369c20e4ed2a4838dc"
     },
     "requirement": {
       "artifactContractPath": "product/contract.json",
-      "artifactContractSha256": "1458dbb6a913092b4370e0e448831d95b0eb3401de8c95b77dd49886a4cb9813",
-      "designRequirementSha256": "e8680ed27884a7cffbeb4cbab0deb96807d60607c60ce46d06c4922896b06b97",
+      "artifactContractSha256": "998cb19d69761a5a4da9d4253d4e5bd2ae62425643448ad417b3cc2a95bdf51e",
+      "designRequirementSha256": "4e46afb92d37aaf663a50d258a310900e57915afee855f777bce7a09f1bbafe1",
       "inputs": [
+        {
+          "role": "external-reference",
+          "id": "eye_root_transition",
+          "path": "product/references/uploads/20261020T161731756Z-1-mark-1.png",
+          "sha256": "1f336f211cb8a0b577037bfbda762857c86e838f8ba85b58667b6be0ec9e8da8",
+          "sizeBytes": 107770
+        },
         {
           "role": "external-reference",
           "id": "plate_alternate",
@@ -63,22 +70,22 @@
         "step"
       ]
     },
-    "stateHash": "098ed709f1d185bab537705b9ac17fbf4bdea2226f1f64acf439a5b29d74ddd3"
+    "stateHash": "5addde0ebdc18ed89153bcae65d81bffcb2555d417acb7bd2ba46ba6e1d7e107"
   },
   "buildArtifacts": {
-    "manifestSha256": "70f2dd213a2c4a0c938d585e6222f0ecac9a1e10e5fc74cf50c1779117912efa",
-    "stepSha256": "49dc7f606d3ccfe3fa294e7c44f9548eb0dfc086b5ff7265f739028f03c8a513"
+    "manifestSha256": "801657f498760fcad6e0740e284e20f2ef88bf52def7feda25e22d2d392a4ff0",
+    "stepSha256": "8fcc8cd1a2af7cf0d82b30faa46da71bd20e409e52619b9ee8961b5c735df89c"
   },
   "exportAlgorithm": {
     "version": 1,
     "bootstrapSha256": "5dd2a543e9cad32f4b7d6303e41a1ed23bd24acea30c3faacc5d72a98b18ff4f"
   },
   "sourceHashes": {
-    "pendant/pendant": "b4a926c33fac7eba3a5d4f278e3b17bd12198d546eae8484b04d9fb33e5a151b"
+    "pendant/pendant": "710442814507a19d63d8d98d4d3d50508cf0d42c21f75c914ea91681b09370e0"
   },
   "assetHashes": {},
   "shapeHashes": {
-    "pendant": "ca199aa88a0a7751947cb465514a2cfc927d01de53728fec4f91ac7230cc1cb4"
+    "pendant": "157ae800ea816917e8e2d3ddde6ad631b1422374c4850cf9a779fd9c061382be"
   },
   "runtime": {
     "manifestHash": "ab96ab4a8cb2db98edb9ee2d6904f4abce711776fb5a1af03a7266313006c5d2",
@@ -89,10 +96,10 @@
   },
   "artifacts": [
     {
-      "path": "manufacturing/roadster-pendant/releases/export-c8f776beadb37edc76b27c2198fed575/model.step",
+      "path": "manufacturing/roadster-pendant/releases/export-f8aa19dad48687561935c30ace54b006/model.step",
       "role": "model/step",
-      "sha256": "49dc7f606d3ccfe3fa294e7c44f9548eb0dfc086b5ff7265f739028f03c8a513",
-      "sizeBytes": 939273
+      "sha256": "8fcc8cd1a2af7cf0d82b30faa46da71bd20e409e52619b9ee8961b5c735df89c",
+      "sizeBytes": 946915
     }
   ],
   "authority": {
@@ -100,9 +107,9 @@
     "algorithm": "hmac-sha256",
     "keyId": "7e86d23c1015f73926207937ca99dcef",
     "projectId": "840be119-1a40-46ce-9df4-110c85e3c837",
-    "receiptPath": "manufacturing/roadster-pendant/releases/export-c8f776beadb37edc76b27c2198fed575/receipt.json",
-    "payloadSha256": "8736d0a1f9cee1c84a2290602c659af9f6a835b60c808be9aba089bda3318f40",
-    "mac": "e4b5d7cc7aa2d4b03843dd0d46512225c87ffc05911bcb1c20243bb21eb8f38f"
+    "receiptPath": "manufacturing/roadster-pendant/releases/export-f8aa19dad48687561935c30ace54b006/receipt.json",
+    "payloadSha256": "1d2b91811dc6eb8dfed4f84b6ba4c11291669f8f48f184bdb76d33cb4bea1401",
+    "mac": "8ab41061729534635058321b1bc1877e3382048e7ab84757cc523baf15b003b0"
   },
   "status": "handoff"
 }

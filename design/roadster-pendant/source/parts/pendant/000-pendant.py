@@ -16,9 +16,16 @@ letter_gap = param('pendant_letter_gap', 0.8379121789560895)
 eye_od = param('pendant_eye_outer_diameter', 10.0)
 eye_id = param('pendant_cord_hole_diameter', 4.0)
 eye_offset = param('pendant_eye_outward_offset', 2.0)
+eye_root_radius = param('pendant_eye_root_radius', 2.0)
 # One integral plate, R3 plan corners, and left cord eye.
 eye_x = -length/2-eye_offset
 outline = RectangleRounded(length, height, corner) + Pos(eye_x,0)*Circle(eye_od/2)
+# eye_root_transition reference: fill the two concave plan corners with tangent arcs.
+root_y = sqrt((eye_od/2)**2-eye_offset**2)
+root_vertices = [v for v in outline.vertices()
+ if abs(v.X+length/2)<1e-6 and abs(abs(v.Y)-root_y)<1e-6]
+assert len(root_vertices)==2, 'Expected the two ring-to-plate root corners'
+outline = fillet(root_vertices, radius=eye_root_radius)
 body = extrude(outline-Pos(eye_x,0)*Circle(eye_id/2), amount=thickness)
 
 # Four tangent true circular arcs form a recessed asymmetric U.
