@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "artifact_level": "standalone_part",
+  "deliverable_intent": "printable_part",
+  "summary": "参考RDSTR车牌的圆角浮雕挂坠，左侧一体挂绳孔",
+  "required_interfaces": [
+    {
+      "id": "cord_eye",
+      "kind": "external_mount",
+      "description": "左侧凸出挂绳孔，默认通孔直径4 mm",
+      "source": "user_requested",
+      "required": true
+    }
+  ],
+  "external_references": [
+    {
+      "id": "plate_front",
+      "source": "user_requested",
+      "description": "RDSTR车牌正面外观参考",
+      "path": "product/references/uploads/20261020T083242806Z-1-ishot-2026-10-20-4-27-20.png"
+    },
+    {
+      "id": "plate_alternate",
+      "source": "user_requested",
+      "description": "RDSTR车牌细边框与窄高字形参考",
+      "path": "product/references/uploads/20261020T083242806Z-2-ishot-2026-10-20-4-27-36.png"
+    },
+    {
+      "id": "rdstr_lettering",
+      "source": "user_requested",
+      "description": "高清RDSTR粗笔画及圆润浮雕参考，以此图作为文字外观依据",
+      "path": "product/references/uploads/20261020T085619022Z-1-rdstr.png"
+    },
+    {
+      "id": "plate_spacing",
+      "source": "user_requested",
+      "description": "车牌整体宽高比例与文字四周留白参考",
+      "path": "product/references/uploads/20261020T152132223Z-1-image.png"
+    }
+  ],
+  "cad": {
+    "requirement": "required",
+    "designs": [
+      {
+        "role": "pendant",
+        "design_id": "roadster-pendant",
+        "description": "车牌挂坠，浮雕RDSTR及左侧挂耳",
+        "delivery_target": "printable_part",
+        "required_formats": [
+          "step"
+        ],
+        "interface_ids": [
+          "cord_eye"
+        ],
+        "reference_ids": [
+          "plate_front",
+          "plate_alternate",
+          "rdstr_lettering",
+          "plate_spacing"
+        ]
+      }
+    ]
+  },
+  "open_questions": []
+}

@@ -1,0 +1,36 @@
+# Replicator — managed block, edited by the app. Your own rules go above.
+/.work/
+/.replicator/
+.history/
+.DS_Store
+*.tmp-*
+*.old-*
+
+/workspace/cad-workbench/
+/workspace/scratch/
+/workspace/.sandbox-runtime/
+/workspace/.tool-output/
+/snapshots/
+/workspace/pcb/*/build/
+/workspace/pcb/*/cache/
+/workspace/pcb/*/generated/
+/workspace/pcb/*/kicad/
+/workspace/pcb/*/previews/
+/workspace/pcb/*/reports/
+/workspace/pcb/*/routing/
+/workspace/pcb/*/release/
+/artifacts/
+!/artifacts/**/
+!/artifacts/**/*.json
+!/artifacts/**/*.md
+
+manufacturing/**
+!manufacturing/**/
+!manufacturing/**/*.json
+!manufacturing/**/*.md
+
+/product/references/uploads/20261020T083242806Z-1-ishot-2026-10-20-4-27-20.png
+/product/references/uploads/20261020T083242806Z-2-ishot-2026-10-20-4-27-36.png
+/product/references/uploads/20261020T085619022Z-1-rdstr.png
+/product/references/uploads/20261020T152132223Z-1-image.png
+# Replicator — end managed block

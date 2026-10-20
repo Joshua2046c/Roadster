@@ -1,0 +1,117 @@
+{
+  "requirements": {
+    "product_class": {
+      "value": "mechanical",
+      "source": "default"
+    },
+    "form_factor": {
+      "value": "参考上传车牌的一体式浮雕挂坠，左侧凸出挂绳孔",
+      "source": "user"
+    },
+    "plate_length_mm": {
+      "value": 72,
+      "source": "default"
+    },
+    "plate_height_mm": {
+      "value": 38,
+      "source": "default"
+    },
+    "body_thickness_mm": {
+      "value": 3.5,
+      "source": "user"
+    },
+    "raised_lettering": {
+      "value": true,
+      "source": "user"
+    },
+    "lettering": {
+      "value": "RDSTR",
+      "source": "research"
+    },
+    "length_scope": {
+      "value": "72 mm指矩形车牌本体，左侧挂耳另计",
+      "source": "default"
+    },
+    "manufacturing_method": {
+      "value": "一体式3D打印，平背朝下",
+      "source": "default"
+    },
+    "base_board": {
+      "value": "无电子元件，纯机械挂坠",
+      "source": "default"
+    },
+    "relief_height_mm": {
+      "value": 0.6,
+      "source": "default"
+    },
+    "cord_hole_diameter_mm": {
+      "value": 4,
+      "source": "default"
+    },
+    "corner_radius_mm": {
+      "value": 3,
+      "source": "user"
+    },
+    "lettering_style": {
+      "value": "按用户新上传RDSTR高清图的粗笔画、字形比例和饱满圆弧制作浮雕",
+      "source": "user"
+    },
+    "border_profile": {
+      "value": "周圈圆弧下凹，凹槽靠内一圈的过渡圆弧更大",
+      "source": "user"
+    },
+    "groove_depth_mm": {
+      "value": 0.45,
+      "source": "default"
+    },
+    "groove_outer_transition_radius_mm": {
+      "value": 0.35,
+      "source": "default"
+    },
+    "groove_inner_transition_radius_mm": {
+      "value": 1.2,
+      "source": "default"
+    },
+    "groove_bottom_radius_mm": {
+      "value": 0.45,
+      "source": "default"
+    },
+    "lettering_construction": {
+      "value": "以新上传黑字白底图逐字重绘矢量边界与内孔，保留原图字距比例",
+      "source": "default"
+    },
+    "lettering_width_mm": {
+      "value": 42.14,
+      "source": "default"
+    },
+    "lettering_top_edges_softened": {
+      "value": true,
+      "source": "user"
+    },
+    "lettering_top_edge_radius_mm": {
+      "value": 0.45,
+      "source": "default"
+    },
+    "lettering_reference": {
+      "value": "product/references/uploads/20261020T085619022Z-1-rdstr.png",
+      "source": "user"
+    },
+    "layout_adjustment": {
+      "value": "审核并适度增加文字与边框之间的距离，允许改变整体宽高比和尺寸，参考新上传车牌照片",
+      "source": "user"
+    },
+    "layout_reference": {
+      "value": "product/references/uploads/20261020T152132223Z-1-image.png",
+      "source": "user"
+    },
+    "lettering_frame_spacing_mm": {
+      "value": {
+        "left_right": 12.38,
+        "top_bottom": 8.7,
+        "measurement": "文字底部轮廓包络到凹槽内侧平面边界的水平及竖直净距"
+      },
+      "source": "default"
+    }
+  },
+  "open_questions": []
+}

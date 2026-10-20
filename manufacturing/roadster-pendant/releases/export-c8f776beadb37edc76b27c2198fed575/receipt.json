@@ -1,0 +1,108 @@
+{
+  "designId": "roadster-pendant",
+  "revision": "bad6384488b8a11e1ceb153fe47d31de6231a452a77be7c94c93e4f5974dbd10",
+  "schemaVersion": 2,
+  "exportId": "export-c8f776beadb37edc76b27c2198fed575",
+  "generatedAt": "2026-10-20T15:23:22.701Z",
+  "designSha256": "ba157356b15c86c32f50433d0530dfb0cd66086fdb94dc603d90df0a3bbf9130",
+  "role": "pendant",
+  "stateHash": "098ed709f1d185bab537705b9ac17fbf4bdea2226f1f64acf439a5b29d74ddd3",
+  "stateManifest": {
+    "schemaVersion": 3,
+    "designId": "roadster-pendant",
+    "role": "pendant",
+    "design": {
+      "revision": "bad6384488b8a11e1ceb153fe47d31de6231a452a77be7c94c93e4f5974dbd10",
+      "designSha256": "d7a2a5943ac78252940391f9681bfe8a1ad19713e36db3e6f2ecfefd6b438dde",
+      "manifestSha256": "70f2dd213a2c4a0c938d585e6222f0ecac9a1e10e5fc74cf50c1779117912efa",
+      "stepSha256": "49dc7f606d3ccfe3fa294e7c44f9548eb0dfc086b5ff7265f739028f03c8a513",
+      "pcbReleases": []
+    },
+    "brief": {
+      "path": "design/roadster-pendant/README.md",
+      "sha256": "0e877fd57bdcb7c83856614d153c4301011ce9a56c9fe38ee61bce2ae909670c"
+    },
+    "requirement": {
+      "artifactContractPath": "product/contract.json",
+      "artifactContractSha256": "1458dbb6a913092b4370e0e448831d95b0eb3401de8c95b77dd49886a4cb9813",
+      "designRequirementSha256": "e8680ed27884a7cffbeb4cbab0deb96807d60607c60ce46d06c4922896b06b97",
+      "inputs": [
+        {
+          "role": "external-reference",
+          "id": "plate_alternate",
+          "path": "product/references/uploads/20261020T083242806Z-2-ishot-2026-10-20-4-27-36.png",
+          "sha256": "a10ff98d16e7a42eba7b3ed76f2ac8ac81c0babad10fd56e35a074ce094d0d05",
+          "sizeBytes": 18238
+        },
+        {
+          "role": "external-reference",
+          "id": "plate_front",
+          "path": "product/references/uploads/20261020T083242806Z-1-ishot-2026-10-20-4-27-20.png",
+          "sha256": "cb006a1879ba580d743fe504887865b13a5f0c3e68c51280f2342b3b181f01fd",
+          "sizeBytes": 13079
+        },
+        {
+          "role": "external-reference",
+          "id": "plate_spacing",
+          "path": "product/references/uploads/20261020T152132223Z-1-image.png",
+          "sha256": "287cbd485655b2122182fd5938345d5de931dcabb62577319df30ab0e307973f",
+          "sizeBytes": 17002
+        },
+        {
+          "role": "external-reference",
+          "id": "rdstr_lettering",
+          "path": "product/references/uploads/20261020T085619022Z-1-rdstr.png",
+          "sha256": "46f929f46b09edc67b57ac12330ea380d2eadfa0d80801d57e46e076c6daf03b",
+          "sizeBytes": 1076829
+        }
+      ]
+    },
+    "delivery": {
+      "target": "printable_part",
+      "formats": [
+        "step"
+      ]
+    },
+    "stateHash": "098ed709f1d185bab537705b9ac17fbf4bdea2226f1f64acf439a5b29d74ddd3"
+  },
+  "buildArtifacts": {
+    "manifestSha256": "70f2dd213a2c4a0c938d585e6222f0ecac9a1e10e5fc74cf50c1779117912efa",
+    "stepSha256": "49dc7f606d3ccfe3fa294e7c44f9548eb0dfc086b5ff7265f739028f03c8a513"
+  },
+  "exportAlgorithm": {
+    "version": 1,
+    "bootstrapSha256": "5dd2a543e9cad32f4b7d6303e41a1ed23bd24acea30c3faacc5d72a98b18ff4f"
+  },
+  "sourceHashes": {
+    "pendant/pendant": "b4a926c33fac7eba3a5d4f278e3b17bd12198d546eae8484b04d9fb33e5a151b"
+  },
+  "assetHashes": {},
+  "shapeHashes": {
+    "pendant": "ca199aa88a0a7751947cb465514a2cfc927d01de53728fec4f91ac7230cc1cb4"
+  },
+  "runtime": {
+    "manifestHash": "ab96ab4a8cb2db98edb9ee2d6904f4abce711776fb5a1af03a7266313006c5d2",
+    "pythonVersion": "3.12.13",
+    "build123dVersion": "0.10.0",
+    "ocpVersion": "7.8.1.1.post1",
+    "cadpyHash": "cc86bceb91ba7b9668854891400ce9ca3f1d372a59aa992460df9d8ed25b89f5"
+  },
+  "artifacts": [
+    {
+      "path": "manufacturing/roadster-pendant/releases/export-c8f776beadb37edc76b27c2198fed575/model.step",
+      "role": "model/step",
+      "sha256": "49dc7f606d3ccfe3fa294e7c44f9548eb0dfc086b5ff7265f739028f03c8a513",
+      "sizeBytes": 939273
+    }
+  ],
+  "authority": {
+    "version": 1,
+    "algorithm": "hmac-sha256",
+    "keyId": "7e86d23c1015f73926207937ca99dcef",
+    "projectId": "840be119-1a40-46ce-9df4-110c85e3c837",
+    "receiptPath": "manufacturing/roadster-pendant/releases/export-c8f776beadb37edc76b27c2198fed575/receipt.json",
+    "payloadSha256": "8736d0a1f9cee1c84a2290602c659af9f6a835b60c808be9aba089bda3318f40",
+    "mac": "e4b5d7cc7aa2d4b03843dd0d46512225c87ffc05911bcb1c20243bb21eb8f38f"
+  },
+  "status": "handoff"
+}

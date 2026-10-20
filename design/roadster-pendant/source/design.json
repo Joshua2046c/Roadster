@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "units": "mm",
+  "coordinateFrame": "replicator-world-z-up",
+  "targets": [
+    {
+      "id": "pendant",
+      "label": "pendant",
+      "cells": [
+        {
+          "id": "pendant",
+          "target": "pendant",
+          "order": 0,
+          "path": "design/roadster-pendant/source/parts/pendant/000-pendant.py",
+          "sha256": "b4a926c33fac7eba3a5d4f278e3b17bd12198d546eae8484b04d9fb33e5a151b"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "objects": [
+    {
+      "id": "pendant",
+      "target": "pendant",
+      "label": "RDSTR 车牌挂坠",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "ca199aa88a0a7751947cb465514a2cfc927d01de53728fec4f91ac7230cc1cb4",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    }
+  ],
+  "assets": [],
+  "fits": [],
+  "updatedAt": "2026-10-20T15:23:22.701Z",
+  "parameters": {
+    "pendant": {
+      "pendant_length": 72,
+      "pendant_height": 38,
+      "pendant_thickness": 3.5,
+      "pendant_corner_radius": 3,
+      "pendant_relief_height": 0.6,
+      "pendant_border_inset": 0.7,
+      "pendant_text_width": 42.14,
+      "pendant_text_height": 15.5,
+      "pendant_eye_outer_diameter": 10,
+      "pendant_cord_hole_diameter": 4,
+      "pendant_eye_outward_offset": 2,
+      "pendant_letter_gap": 0.8379121789560895,
+      "pendant_groove_depth": 0.45,
+      "pendant_groove_outer_radius": 0.35,
+      "pendant_groove_bottom_radius": 0.45,
+      "pendant_groove_inner_radius": 1.2,
+      "pendant_text_top_edge_radius": 0.45
+    }
+  }
+}

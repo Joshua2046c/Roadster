@@ -1,0 +1,12 @@
+{
+  "formatVersion": 4,
+  "name": "Roadster 挂坠",
+  "summary": "将特斯拉 Roadster 的车牌收入囊中",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Miles"
+    }
+  ],
+  "artifacts": "rebuild"
+}
