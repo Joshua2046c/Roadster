@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "entries": [
     {
+      "file": "rdstr.jpg",
+      "kind": "photo"
+    },
+    {
       "file": "cover-iso.jpg",
       "kind": "render",
       "generated": true
