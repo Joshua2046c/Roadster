@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "file": "models/roadster-pendant.glb",
+      "design": "roadster-pendant"
+    }
+  ]
+}

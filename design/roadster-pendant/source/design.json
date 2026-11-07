@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "units": "mm",
-  "coordinateFrame": "replicator-world-z-up",
+  "coordinateFrame": "makit-world-z-up",
   "targets": [
     {
       "id": "pendant",
@@ -25,7 +25,7 @@
       "label": "RDSTR 车牌挂坠",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "157ae800ea816917e8e2d3ddde6ad631b1422374c4850cf9a779fd9c061382be",
+      "shapeHash": "48499d58d4060a85ca7d20715227fef44d4f7f0b04dfc8ad95ab1c802c3f39c5",
       "transform": {
         "positionMm": [
           0,
@@ -49,7 +49,7 @@
   ],
   "assets": [],
   "fits": [],
-  "updatedAt": "2026-10-20T16:18:32.841Z",
+  "updatedAt": "2026-11-07T14:51:46.995Z",
   "parameters": {
     "pendant": {
       "pendant_length": 72,
